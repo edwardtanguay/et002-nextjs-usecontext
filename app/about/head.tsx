@@ -18,7 +18,7 @@ export default function Head({ params }: { params: { slug: string } }) {
 			/>
 			<meta
 				property="og:image"
-				content="https://et001-nextjs-usecontext.vercel.app/images/about-page.png"
+				content="https://et002-nextjs-usecontext.vercel.app/images/about-page.png"
 			/>
 			<meta property="og:url" content="https://starters.tanguay.eu" />
 		</>
