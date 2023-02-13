@@ -7,4 +7,17 @@ body {
 	.active {
 		color: rgb(223, 212, 58);
 	}
+
+
+	.headerArea {
+		display: flex;
+		gap: .4rem;
+		margin-top: 1rem;
+
+		img {
+			height: 1.5rem;
+			border-radius: .2rem;
+			margin-top: .3rem;
+		}
+	}
 }
