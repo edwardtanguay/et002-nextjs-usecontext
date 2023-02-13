@@ -10,7 +10,6 @@ function Info() {
 
 	return (
 		<>
-		<Header/>
 			<p> This is the info page for the site "{siteTitle}".</p>
 		</>
 	);
