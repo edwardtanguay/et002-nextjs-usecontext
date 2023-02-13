@@ -1,3 +1,4 @@
+import { AppProvider } from '../components/AppContext';
 import '../styles/site.scss';
 import '../styles/globals.css';
 
@@ -9,7 +10,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body><AppProvider>{children}</AppProvider></body>
     </html>
   )
 }
